@@ -1,0 +1,124 @@
+form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 510px;
+    height: 608px;
+    left: 705px;
+    top: 181px;
+    background: #FBFBFB;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+h2 {
+    position: absolute;
+    width: 510px;
+    height: 608px;
+    left: 3px;
+    top: 5px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434141;
+}
+label {
+    position: absolute;
+    width: 4px;
+    height: 900px;
+    left: 30px;
+    top: 50px;
+    display: block;
+    margin-bottom: 150px;
+}
+input[type="name"]{
+    position: absolute;
+    width: 45px;
+    height: 22.81px;
+    left: 400px;
+    top: 150.69px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 20;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+}
+input[type="text"]{
+    position: absolute;
+    width: 447px;
+    height: 40.6px;
+    left: 30px;
+    top: 230px;
+    
+    background: #E2E1E3;
+    border-radius: 5px;
+}
+input[type="email"]{
+    position: absolute;
+    width: 447px;
+    height: 40.6px;
+    left: 30px;
+    top: 330px;
+    
+    background: #E2E1E3;
+    border-radius: 5px;
+}
+input[type="password"] {
+    position: absolute;
+    width: 447px;
+    height: 40.6px;
+    left: 30px;
+    top: 430px;
+    
+    background: #E2E1E3;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: #FF9022;
+    position: absolute;
+    width: 450px;
+    height: 75.29px;
+    left: 28px;
+    top: 500px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+input[type="reset"] {
+    position: absolute;
+    width: 90px;
+    height: 15.97px;
+    left: 210px;
+    top: 580px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.half {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.half:last-child {
+    margin-right: 0;
+}
